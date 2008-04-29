@@ -1,0 +1,8 @@
+Simple to use:
+
+("<test><blah>blah</blah></test>" fromXml) yields: 
+'(test () (blah () blah))
+
+('(fruits () (apple ((language english) (version "3.0")) blah) (orange () foo)) toXml) yields:
+"<fruits><apple  version=\"3.0\" language=\"english\">blah</apple><orange>foo</orange></fruits>"
+
